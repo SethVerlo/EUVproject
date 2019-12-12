@@ -1,6 +1,4 @@
-# EUVproject
-Hydrogen plasma diagnostics
-
+# Hydrogen plasma diagnostics
 The files set will be a backup for an applied phyiscs project I am doing now (2019 April, maybe till 2020 summer). 
 As a collaboration reserach with SRJ.
 Basically, I am focusing on the atomic physics. 
