@@ -8,6 +8,8 @@ We are going to measure the H atoms in the EUV produced Hydrogen plasma.
 'temp_h.py' is used for calculating the plasma temperature with line ratio method (H-a & H-b).
 'dens_h' is used for calculatiing the the plasma density, Stark and Doppler effects are considered.
 'plt.py' is used for plotting the spectrum.
+'spectrum.py'is calculated with ChiantiPy. There are three plasma parameter should be noticed: "n_e", 'T' and 'em'.
+'em' is emission measure which is defined as the square of the number density of free electrons integrated over the volume of the plasma.
 # Acknowledgement 
 Thanks for the help from Dr. Tanaka and Dr. Zhu (ILE, Osaka Univ.) during the experiment.
 
