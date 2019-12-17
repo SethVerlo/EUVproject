@@ -31,6 +31,6 @@ T1=T/11605
 T_eV=round(T1,2)
 
 if T_eV < 0:
-    print('Error: Negitave temeperature')
+    print('Error: Negitave temeperature! Please check the original data.')
 else:
     print('The tempurature is {} eV'.format(T_eV))
