@@ -8,7 +8,7 @@ We are going to measure the H atoms in the EUV produced Hydrogen plasma.
 # Files
 'temp_h.py' is used for calculating the plasma temperature with line ratio method (H-a & H-b).
 
-'dens_h' is used for calculatiing the the plasma density, Stark and Doppler effects are considered.
+'dens_h.py' is used for calculatiing the the plasma density, Stark and Doppler effects are considered.
 
 'plt.py' is used for plotting the spectrum.
 
