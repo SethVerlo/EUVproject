@@ -16,6 +16,7 @@ We are going to measure the H atoms in the EUV produced Hydrogen plasma.
 'em' is emission measure which is defined as the square of the number density of free electrons integrated over the volume of the plasma.
 # Acknowledgement 
 Thanks for the help from Dr. Tanaka and Dr. Zhu (ILE, Osaka Univ.) during the experiment.
+Special thanks to Prof. Fujioka (ILE, Osaka Univ.).
 
 C.Liu
 
