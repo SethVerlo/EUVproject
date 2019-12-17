@@ -21,6 +21,6 @@ x=lamda_n/(7.4e-19*np.square(6562.83)*5)
 ne=pow(x, 1.5)
 
 if ne < 0:
-    print("Error: negative density!")
+    print("Error: negative density! Please check the original data.")
 else:
     print('The electron density is {:g} cm-3'.format(ne))
