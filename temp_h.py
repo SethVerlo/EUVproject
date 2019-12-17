@@ -22,13 +22,14 @@ g2=32
 
 E1=12.0875*1.6e-19 #J
 E2=12.7485*1.6e-19
-
 lamda_a=656.3
 lamda_b=486.1
 
 T=(E2-E1)/(constants.k*np.log((ha*A2*g2*lamda_b)/(hb*A1*g1*lamda_a)))
 T1=T/11605
 T_eV=round(T1,2)
+
+print('The line ratio is {}.'.format(ha/hb))
 
 if T_eV < 0:
     print('Error: Negitave temperature! Please check the original data.')
