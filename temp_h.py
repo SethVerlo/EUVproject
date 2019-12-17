@@ -2,7 +2,7 @@ import numpy as np
 from scipy import constants
 
 print('This script is for 1200g/mm H-alpha & beta! Please confirm before calculation!')
-print('The transition probablity and statistical weight is refer to CRC handbook')
+print('The transition probablity and statistical weight is refered to CRC handbook')
 while True:
     try:
         ha_origin=int(input('Please input the counts of H-alpha line:'))
@@ -31,6 +31,6 @@ T1=T/11605
 T_eV=round(T1,2)
 
 if T_eV < 0:
-    print('Error: Negitave temeperature! Please check the original data.')
+    print('Error: Negitave temperature! Please check the original data.')
 else:
     print('The tempurature is {} eV'.format(T_eV))
