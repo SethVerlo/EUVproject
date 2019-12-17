@@ -29,7 +29,7 @@ T=(E2-E1)/(constants.k*np.log((ha*A2*g2*lamda_b)/(hb*A1*g1*lamda_a)))
 T1=T/11605
 T_eV=round(T1,2)
 
-print('The line ratio is {}.'.format(ha/hb))
+print('The line ratio is {:g}.'.format(ha/hb))
 
 if T_eV < 0:
     print('Error: Negitave temperature! Please check the original data.')
