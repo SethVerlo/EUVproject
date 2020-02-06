@@ -9,6 +9,7 @@ H1.popPlot()
 H1.intensityPlot(wvlRange=[6564,6565],linLog='log', index=4)
 H1.intensityList(wvlRange=[4000,7000], index=4)
 plt.show(H1)
+
 H1a = ch.ioneq(1)
 H1a.load()
 H1a.plot()
