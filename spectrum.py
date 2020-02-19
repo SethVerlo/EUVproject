@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 temp = 15087
 dens = 3e13
-em = 1e26
+em = 1e26 #defined by the integration of square of n_e to volume (hydrogen)
 dwvl = 0.01
 nwvl = (6500.- 4000.)/dwvl
 wvl = 4500. + dwvl*np.arange(nwvl+1)
