@@ -1,6 +1,6 @@
 macro "Crop and save all open images and plot profiles" 
 {
-	dir = getDirectory("Choose a Directory to save"); 
+	dir = getDirectory("Choose the save folder"); 
 	ids=newArray(nImages); 
 	for (i=0;i<nImages;i++) 
 	{ 
