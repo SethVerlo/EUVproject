@@ -3,10 +3,17 @@ from scipy import constants
 cts=float(input("please input the H-alpha counts:"))
 cts1=float(input("please input the H-beta counts:"))
 
-A_slt=1.833e-4 # region size chosen on CCD in cm-2
-A_obs=0.045  # observation emission area on CCD in cm-2, R=0.12 cm 
-V_euv=4.189e-6 # EUV volume in cm-3, R=0.01 cm
-omega=((4.83/2)**2*constants.pi)/900 # solid angle of first lens, R=2.415 cm with d=30 cm
+sw=15e-4 #slit width in cm
+p=13e-4 #CCD pixel size in cm
+ro=0.12 #radius of CCD observable region in cm
+re=100e-4 #radius of EUV radiation volume in cm
+rl=2.415 #radius of the first lens in cm
+R=30 #distance of fisrt lens to TCC in cm
+
+A_slt=94*p*sw # region size chosen on CCD in cm-2
+A_obs=ro**2*constants.pi # observation emission area on CCD in cm-2, R=0.12 cm 
+V_euv=(4*constants.pi*re**3)/3  #4.189e-6 # EUV volume in cm-3, R=0.01 cm
+omega=(rl**2*constants.pi)/(R**2) # solid angle of first lens, R=2.415 cm with d=30 cm
 
 obs_n1=4*constants.pi*(((cts/A_slt)*A_obs)/900)/omega #H-alpha total counts
 obs_n2=4*constants.pi*(((cts1/A_slt)*A_obs)/900)/omega  #H-beta total counts
