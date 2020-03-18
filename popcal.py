@@ -1,3 +1,4 @@
+#calculator for H* yield
 from scipy import constants
 
 cts=float(input("please input the H-alpha counts:"))
