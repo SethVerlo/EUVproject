@@ -11,9 +11,9 @@ rl=2.415 #radius of the first lens in cm
 R=30 #distance of the first lens to TCC in cm
 
 A_slt=94*p*sw # region size chosen on CCD in cm-2
-A_obs=ro**2*constants.pi # observation emission area on CCD in cm-2, R=0.12 cm 
-V_euv=(4*constants.pi*re**3)/3  #4.189e-6 # EUV volume in cm-3, R=0.01 cm
-omega=(rl**2*constants.pi)/(R**2) # solid angle of the first lens, R=2.415 cm with d=30 cm
+A_obs=ro**2*constants.pi # observation emission area on CCD in cm-2
+V_euv=(4*constants.pi*re**3)/3  # EUV volume in cm-3
+omega=(rl**2*constants.pi)/(R**2) # solid angle of the first lens
 
 obs_n1=4*constants.pi*(((cts/A_slt)*A_obs)/900)/omega #H-alpha total counts
 obs_n2=4*constants.pi*(((cts1/A_slt)*A_obs)/900)/omega  #H-beta total counts
