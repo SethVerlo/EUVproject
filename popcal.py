@@ -3,7 +3,7 @@ from scipy import constants
 cts=float(input("please input the H-alpha counts:"))
 cts1=float(input("please input the H-beta counts:"))
 
-sw=15e-4 #slit width in cm
+sw=15e-4 #spectrometer slit width in cm
 p=13e-4 #CCD pixel size in cm
 ro=0.12 #radius of CCD observable region in cm
 re=100e-4 #radius of EUV radiation volume in cm
